@@ -18,3 +18,8 @@ steps:
   inputs:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/testim-tests-report.xml'
+
+- task: mabl-azure-devops-extension@1
+  inputs:
+    apiKey: 'votnLAZ5YaPWjqZYaUixIw'
+

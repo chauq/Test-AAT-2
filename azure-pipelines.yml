@@ -1,17 +1,8 @@
 steps:
 
-- task: NodeTool@0
+- task: mabl-azure-devops-extension@1
   inputs:
-    versionSpec: '10.x'
-  displayName: 'Install Node.js'
-
-- script: |
-    npm install @mablhq/mabl-cli
-    mabl auth activate-key "votnLAZ5YaPWjqZYaUixIw"
-    npm install wait-on
-    npm start & wait-on https://durabledigital.com/
-    mabl tests run -- Email sub test --environment-id https://durabledigital.com/ --headless
-
-  displayName: 'npm install mablhq-cli and run tests'
-
-
+    apiKey: 'votnLAZ5YaPWjqZYaUixIw'
+    applicationId: 'AZqcFS7qASwT5Hyo4WlXLg-a'
+    environmentId: 'WARxZBLLOyuIjDiNkmiM0w-e'
+    labels: 'test'

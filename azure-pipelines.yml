@@ -4,5 +4,5 @@ steps:
   inputs:
     apiKey: 'votnLAZ5YaPWjqZYaUixIw'
     applicationId: 'dd website'
-    labels: 'Email sub test'
+    labels: 'test'
 

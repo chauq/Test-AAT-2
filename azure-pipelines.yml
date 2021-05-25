@@ -3,5 +3,5 @@ steps:
 - task: mabl-azure-devops-extension@1
   inputs:
     apiKey: 'votnLAZ5YaPWjqZYaUixIw'
-    applicationId: 'AZqcFS7qASwT5Hyo4WlXLg-a'
-    environmentId: 'WARxZBLLOyuIjDiNkmiM0w-e'
+    applicationId: 'IZUtpchnuny3hBmli81Ojg-a'
+    environmentId: 'I3hoDgrToLuGUtDmVOLm3w-e'
